@@ -55,7 +55,7 @@ public class MainPageTest {
         WebElement menuPopup = driver.findElement(By.cssSelector("div[data-test='main-submenu']"));
         assertTrue(menuPopup.isDisplayed());
     }
-
+//тратата
     @Test
     public void navigationToAllTools() {
         mainPage.seeDeveloperToolsButton.click();
